@@ -1,4 +1,4 @@
-LOCATION OF MAIN : "PUNE/MAIN.py" 
+# LOCATION OF MAIN : "PUNE/MAIN.py" 
 # 📘 AI-Guided Learning Project
 
 An **AI-powered learning platform** that helps students learn technical concepts through **step-by-step guidance, intelligent error detection, and personalized feedback**.  
@@ -45,6 +45,7 @@ This version is fully implemented in **Python** and runs inside **PyCharm / desk
 - **XGBoost** – Error categorization  
 - **SpeechRecognition + pyttsx3** – Voice commands and TTS  
 - **JSON** – Dataset and task storage  
+
 
 
 
