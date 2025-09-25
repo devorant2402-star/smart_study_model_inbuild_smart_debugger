@@ -1,0 +1,1 @@
+tokenizer = BertTokenizer.from_pretrained("bert_fine_tuned")

@@ -1,0 +1,41 @@
+{
+    "creategmailaccount": {
+        "module_name": "Create Gmail Account",
+        "difficulty": "easy",
+        "xp": 10,
+        "video_path": "path/to/create_gmail_account_video.mp4",
+        "steps": [
+            "1. Open Chrome",
+            "2. Go to Gmail",
+            "3. Click 'Create Account'"
+        ],
+        "short_explanation": "This task involves creating a Gmail account by following the provided steps.",
+        "reward": "10 points"
+    },
+    "reset_password": {
+        "module_name": "Reset Password",
+        "difficulty": "medium",
+        "xp": 15,
+        "video_path": "path/to/reset_password_video.mp4",
+        "steps": [
+            "1. Open Gmail settings",
+            "2. Click 'Change Password'",
+            "3. Enter new password"
+        ],
+        "short_explanation": "This task involves resetting the Gmail account password by following the steps.",
+        "reward": "15 points"
+    },
+    "setup_two_factor_authentication": {
+        "module_name": "Set up Two-Factor Authentication",
+        "difficulty": "hard",
+        "xp": 20,
+        "video_path": "path/to/setup_two_factor_auth_video.mp4",
+        "steps": [
+            "1. Go to Security Settings",
+            "2. Click '2-Step Verification'",
+            "3. Follow the steps to set up 2FA"
+        ],
+        "short_explanation": "This task involves setting up two-factor authentication for added security.",
+        "reward": "20 points"
+    }
+}

@@ -1,0 +1,137 @@
+[
+    {
+        "error_message": "Python is not recognized as an internal or external command, operable program or batch file.",
+        "related_task": "install_python",
+        "explanation": "This error occurs when Python is not correctly installed or Python's executable is not added to the PATH environment variable."
+    },
+    {
+        "error_message": "Could not find a version that satisfies the requirement <module_name>",
+        "related_task": "install_python",
+        "explanation": "This usually happens when you try to install a package with pip, but the specified package name or version does not exist."
+    },
+    {
+        "error_message": "File path is invalid or inaccessible.",
+        "related_task": "install_python",
+        "explanation": "The system cannot locate the file path for Python's installation executable. Make sure the file path is valid."
+    },
+    {
+        "error_message": "SyntaxError: EOL while scanning string literal",
+        "related_task": "write_first_python_program",
+        "explanation": "This happens when you forget to close a string with the same quotation marks that you started with. Check for missing or mismatched quotes."
+    },
+    {
+        "error_message": "IndentationError: expected an indented block",
+        "related_task": "write_first_python_program",
+        "explanation": "This happens when Python expects an indented block of code (e.g., after a function or loop) but does not find any."
+    },
+    {
+        "error_message": "SyntaxError: invalid syntax",
+        "related_task": "write_first_python_program",
+        "explanation": "This occurs if there’s a typo, missing symbols, or incorrect use of Python keywords in your program."
+    },
+    {
+        "error_message": "NameError: name 'my_variable' is not defined",
+        "related_task": "python_variables",
+        "explanation": "This error occurs when you try to access a variable that has not been defined or is out of scope."
+    },
+    {
+        "error_message": "UnboundLocalError: local variable 'x' referenced before assignment",
+        "related_task": "python_variables",
+        "explanation": "This happens when you try to use a variable inside a function before assigning a value to it."
+    },
+    {
+        "error_message": "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+        "related_task": "python_variables",
+        "explanation": "This occurs when you try to perform operations (like addition) on incompatible types, such as an integer and a string."
+    },
+    {
+        "error_message": "TypeError: 'int' object is not iterable",
+        "related_task": "python_loops",
+        "explanation": "This usually happens when you attempt to iterate over an integer in a loop instead of an iterable object like a list or range."
+    },
+    {
+        "error_message": "IndexError: list index out of range",
+        "related_task": "python_loops",
+        "explanation": "This error occurs when you try to access an index in a list that is outside the range of valid indices."
+    },
+    {
+        "error_message": "SyntaxError: 'break' outside loop",
+        "related_task": "python_loops",
+        "explanation": "This error occurs when you use the 'break' keyword outside of a loop context, such as in a function."
+    },
+    {
+        "error_message": "TypeError: greet() missing 1 required positional argument: 'name'",
+        "related_task": "python_functions",
+        "explanation": "This occurs when you call a function without providing a required argument as defined in its parameters."
+    },
+    {
+        "error_message": "SyntaxError: non-default argument follows default argument",
+        "related_task": "python_functions",
+        "explanation": "This occurs when you define a function with a default parameter followed by a non-default parameter."
+    },
+    {
+        "error_message": "RecursionError: maximum recursion depth exceeded",
+        "related_task": "python_functions",
+        "explanation": "This error occurs when a recursive function calls itself too many times, exceeding Python's recursion limit."
+    },
+    {
+        "error_message": "AttributeError: 'Car' object has no attribute 'color'",
+        "related_task": "python_oop",
+        "explanation": "This occurs when you try to access an attribute or method for a class instance that has not been defined."
+    },
+    {
+        "error_message": "TypeError: __init__() missing 1 required positional argument: 'model'",
+        "related_task": "python_oop",
+        "explanation": "This happens when you try to create an object of a class but forget to pass all the required arguments to the constructor."
+    },
+    {
+        "error_message": "AttributeError: 'str' object has no attribute 'append'",
+        "related_task": "python_oop",
+        "explanation": "This error happens when you try to call a method on a string object that does not exist, such as using list operations on a string."
+    },
+    {
+        "error_message": "FileNotFoundError: [Errno 2] No such file or directory: 'input.txt'",
+        "related_task": "python_file_handling",
+        "explanation": "This happens when you try to open or read a file that doesn’t exist in the given file path."
+    },
+    {
+        "error_message": "PermissionError: [Errno 13] Permission denied: 'output.txt'",
+        "related_task": "python_file_handling",
+        "explanation": "This occurs when you attempt to open a file for writing in a location where the program doesn't have permission to write."
+    },
+    {
+        "error_message": "ValueError: I/O operation on closed file.",
+        "related_task": "python_file_handling",
+        "explanation": "This happens when you try to perform operations (like reading or writing) on a file after it has been closed."
+    },
+    {
+        "error_message": "ZeroDivisionError: division by zero",
+        "related_task": "python_exception_handling",
+        "explanation": "This error occurs when you try to divide a number by zero. For example, `x = 10 / 0`."
+    },
+    {
+        "error_message": "ValueError: invalid literal for int() with base 10: 'abc'",
+        "related_task": "python_exception_handling",
+        "explanation": "This occurs when you try to convert a string to an integer but the string contains non-numeric characters."
+    },
+    {
+        "error_message": "KeyError: 'username'",
+        "related_task": "python_exception_handling",
+        "explanation": "This happens when you attempt to access a key that does not exist in a dictionary."
+    },
+    {
+        "error_message": "ModuleNotFoundError: No module named 'beautifulsoup4'",
+        "related_task": "python_web_scraping",
+        "explanation": "This error occurs when the required BeautifulSoup package is not installed in your Python environment."
+    },
+    {
+        "error_message": "requests.exceptions.ConnectionError: Failed to establish a new connection",
+        "related_task": "python_web_scraping",
+        "explanation": "This happens when a web scraping script attempts to connect to a URL but fails, usually due to internet connectivity issues or server problems."
+    },
+    {
+        "error_message": "AttributeError: 'NoneType' object has no attribute 'text'",
+        "related_task": "python_web_scraping",
+        "explanation": "This error occurs when you try to access an attribute (e.g., `text`) of an object that is `None`, likely because the HTML element was not found."
+    }
+]

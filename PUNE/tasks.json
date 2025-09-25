@@ -1,0 +1,189 @@
+{
+    "install python": {
+        "module_name": "Install Python",
+        "difficulty": "easy",
+        "xp": 10,
+        "video_path": "C:\\Users\\deven\\Downloads\\PUNE\\PUNE\\video\\pycharninstal.mp4",
+        "steps": [
+            "1. Download Python from the official website: https://www.python.org/downloads/",
+            "2. Run the installer and select 'Add Python to PATH'.",
+            "3. Verify installation using the command: python --version"
+        ],
+        "short_explanation": "This task involves installing Python and verifying its installation.",
+        "reward": "10 points"
+    },
+    "write first python program": {
+        "module_name": "Write Your First Python Program",
+        "difficulty": "easy",
+        "xp": 15,
+        "video_path": "C:\\Users\\deven\\Downloads\\PUNE\\PUNE\\video\\helloworld.mp4",
+        "steps": [
+            "1. Open a text editor or Python IDE.",
+            "2. Write the following code:",
+            "   ```python",
+            "   print(\"Hello, World!\")",
+            "   ```",
+            "3. Save the file as hello.py and run it using the command: python hello.py"
+        ],
+        "short_explanation": "This task involves writing and running a basic Python script.",
+        "reward": "15 points"
+    },
+    "python variables": {
+        "module_name": "Understanding Variables in Python",
+        "difficulty": "medium",
+        "xp": 20,
+        "video_path": "path/to/python_variables_video.mp4",
+        "steps": [
+            "1. Assign values to different variables:",
+            "   ```python",
+            "   x = 5",
+            "   y = 3.14",
+            "   name = \"Python\"",
+            "   ```",
+            "2. Print variable values:",
+            "   ```python",
+            "   print(x, y, name)",
+            "   ```",
+            "3. Use type() to check variable types:",
+            "   ```python",
+            "   print(type(x), type(y), type(name))",
+            "   ```"
+        ],
+        "short_explanation": "This task involves learning about Python variables and data types.",
+        "reward": "20 points"
+    },
+    "python loops": {
+        "module_name": "Working with Loops in Python",
+        "difficulty": "medium",
+        "xp": 25,
+        "video_path": "path/to/python_loops_video.mp4",
+        "steps": [
+            "1. Write a 'for' loop:",
+            "   ```python",
+            "   for i in range(1, 6):",
+            "       print(i)",
+            "   ```",
+            "2. Write a 'while' loop:",
+            "   ```python",
+            "   count = 1",
+            "   while count <= 5:",
+            "       print(count)",
+            "       count += 1",
+            "   ```",
+            "3. Use 'break' and 'continue' statements:"
+        ],
+        "short_explanation": "This task involves understanding and implementing loops in Python.",
+        "reward": "25 points"
+    },
+    "python functions": {
+        "module_name": "Defining and Using Functions in Python",
+        "difficulty": "hard",
+        "xp": 30,
+        "video_path": "path/to/python_functions_video.mp4",
+        "steps": [
+            "1. Define a function:",
+            "   ```python",
+            "   def greet(name):",
+            "       return f\"Hello, {name}!\"",
+            "   ```",
+            "2. Call the function:",
+            "   ```python",
+            "   print(greet(\"Alice\"))",
+            "   ```",
+            "3. Use default parameters:",
+            "   ```python",
+            "   def greet(name=\"User\"):",
+            "       return f\"Hello, {name}!\"",
+            "   ```"
+        ],
+        "short_explanation": "This task involves learning how to create and use functions in Python.",
+        "reward": "30 points"
+    },
+    "python oop": {
+        "module_name": "Object-Oriented Programming in Python",
+        "difficulty": "hard",
+        "xp": 35,
+        "video_path": "path/to/python_oop_video.mp4",
+        "steps": [
+            "1. Define a class and an object:",
+            "   ```python",
+            "   class Car:",
+            "       def __init__(self, brand, model):",
+            "           self.brand = brand",
+            "           self.model = model",
+            "       def show_details(self):",
+            "           print(f\"Car: {self.brand} {self.model}\")",
+            "   ```",
+            "2. Create an object and use methods:",
+            "   ```python",
+            "   my_car = Car(\"Toyota\", \"Corolla\")",
+            "   my_car.show_details()",
+            "   ```"
+        ],
+        "short_explanation": "This task involves understanding and using Object-Oriented Programming in Python.",
+        "reward": "35 points"
+    },
+    "python file handling": {
+        "module_name": "Working with Files in Python",
+        "difficulty": "medium",
+        "xp": 25,
+        "video_path": "path/to/python_file_handling_video.mp4",
+        "steps": [
+            "1. Open and write to a file:",
+            "   ```python",
+            "   with open(\"sample.txt\", \"w\") as file:",
+            "       file.write(\"Hello, File Handling!\")",
+            "   ```",
+            "2. Read from a file:",
+            "   ```python",
+            "   with open(\"sample.txt\", \"r\") as file:",
+            "       print(file.read())",
+            "   ```"
+        ],
+        "short_explanation": "This task involves reading from and writing to files in Python.",
+        "reward": "25 points"
+    },
+    "python exception handling": {
+        "module_name": "Handling Errors with Exception Handling",
+        "difficulty": "hard",
+        "xp": 30,
+        "video_path": "path/to/python_exception_handling_video.mp4",
+        "steps": [
+            "1. Use try-except blocks:",
+            "   ```python",
+            "   try:",
+            "       num = int(input(\"Enter a number: \"))",
+            "       print(10 / num)",
+            "   except ZeroDivisionError:",
+            "       print(\"Cannot divide by zero!\")",
+            "   except ValueError:",
+            "       print(\"Invalid input! Please enter a number.\")",
+            "   ```"
+        ],
+        "short_explanation": "This task involves handling errors using try-except blocks in Python.",
+        "reward": "30 points"
+    },
+    "python web scraping": {
+        "module_name": "Web Scraping with BeautifulSoup",
+        "difficulty": "hard",
+        "xp": 40,
+        "video_path": "path/to/python_web_scraping_video.mp4",
+        "steps": [
+            "1. Install BeautifulSoup:",
+            "   ```bash",
+            "   pip install beautifulsoup4 requests",
+            "   ```",
+            "2. Write a web scraper:",
+            "   ```python",
+            "   import requests",
+            "   from bs4 import BeautifulSoup",
+            "   url = \"https://example.com\"",
+            "   response = requests.get(url)",
+            "   soup = BeautifulSoup(response.text, \"html.parser\")",
+            "   print(soup.title.text)",
+            "   ```"
+        ],
+        "short_explanation": "This task involves web scraping using Python's BeautifulSoup library.",
+        "reward": "40 points"
+    }
+}

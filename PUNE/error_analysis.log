@@ -1,0 +1,18 @@
+2025-04-08 18:08:08,370 - DEBUG - STREAM b'IHDR' 16 13
+2025-04-08 18:08:08,370 - DEBUG - STREAM b'IDAT' 41 65536
+2025-04-08 18:08:08,445 - DEBUG - ['tesseract', 'C:\\Users\\deven\\AppData\\Local\\Temp\\tess_cl611v1j_input.PNG', 'C:\\Users\\deven\\AppData\\Local\\Temp\\tess_cl611v1j', 'txt']
+2025-04-08 18:08:09,397 - INFO - Starting error analysis...
+2025-04-08 18:08:09,398 - DEBUG - Error Analyzed: Unknown Error
+2025-04-08 18:08:09,398 - DEBUG - Solution Provided: ['The error is unrecognized. Please review the error message for details.', 'You can consult documentation or research online for potential solutions.']
+2025-04-08 18:09:41,023 - DEBUG - STREAM b'IHDR' 16 13
+2025-04-08 18:09:41,024 - DEBUG - STREAM b'IDAT' 41 65536
+2025-04-08 18:09:41,074 - DEBUG - ['tesseract', 'C:\\Users\\deven\\AppData\\Local\\Temp\\tess_gkm3vsyz_input.PNG', 'C:\\Users\\deven\\AppData\\Local\\Temp\\tess_gkm3vsyz', 'txt']
+2025-04-08 18:09:41,796 - INFO - Starting error analysis...
+2025-04-08 18:09:41,796 - DEBUG - Error Analyzed: Unknown Error
+2025-04-08 18:09:41,796 - DEBUG - Solution Provided: ['The error is unrecognized. Please review the error message for details.', 'You can consult documentation or research online for potential solutions.']
+2025-04-08 18:10:50,331 - DEBUG - STREAM b'IHDR' 16 13
+2025-04-08 18:10:50,331 - DEBUG - STREAM b'IDAT' 41 65536
+2025-04-08 18:10:50,383 - DEBUG - ['C:\\Program Files\\Tesseract-OCR\\tesseract.exe', 'C:\\Users\\deven\\AppData\\Local\\Temp\\tess_h4a0kip1_input.PNG', 'C:\\Users\\deven\\AppData\\Local\\Temp\\tess_h4a0kip1', 'txt']
+2025-04-08 18:10:51,069 - INFO - Starting error analysis...
+2025-04-08 18:10:51,069 - DEBUG - Error Analyzed: Unknown Error
+2025-04-08 18:10:51,069 - DEBUG - Solution Provided: ['The error is unrecognized. Please review the error message for details.', 'You can consult documentation or research online for potential solutions.']
